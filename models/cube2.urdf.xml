@@ -1,0 +1,23 @@
+<robot name="cube2">
+
+  <link name="baseLink">
+    <visual>
+      <origin rpy="0 0 0" xyz="1 -1 0.1"/>
+
+      <geometry>
+        <box size="0.2 0.2 0.2"/>
+      </geometry>
+
+      <material name="blue">
+        <color rgba="0.5 0 1 1"/>
+      </material>
+
+    </visual>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.5" />
+      <inertia ixx="0.00333333333333" ixy="0.0" ixz="0.0" iyy="0.00333333333333" iyz="0.0" izz="0.00333333333333"/>
+    </inertial>
+  </link>
+
+</robot>
